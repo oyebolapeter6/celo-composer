@@ -1,0 +1,27 @@
+dApp files on Celo, you can use **Celo Composer**, a CLI tool that simplifies building, deploying, and iterating on decentralized applications[](https://github.com/celo-org/celo-composer "1"). Here's a quick guide to get you started:
+
+1. **Install Celo Composer**: Make sure you have Node.js (v20 or higher) and Git (v2.38 or higher) installed[](https://docs.celo.org/build/quickstart "2"). Then, install Celo Composer using the following command:
+   ```bash
+   npx @celo/celo-composer@latest create
+   ```[](https://docs.celo.org/build/quickstart "2")
+
+2. **Set Up Your Project**: Follow the prompts to enter your project name, choose whether to use Hardhat (a smart contract development environment), and select a template if you want to use one[](https://docs.celo.org/build/quickstart "2").
+
+3. **Edit Files**: Once your project is set up, you can start editing the files. For example, you might want to rename the `.env.template` file to `.env` and add the required environment variables[](https://docs.celo.org/build/quickstart "2").
+
+4. **Run Your Project**: Navigate to the project directory and run the following commands to install dependencies and start your project:
+   ```bash
+   yarn install
+   yarn dev
+   ```[](https://docs.celo.org/build/quickstart "2")
+   Alternatively, if you prefer npm, you can use:
+   ```bash
+   npm install
+   npm run dev
+   ```[](https://docs.celo.org/build/quickstart "2")
+
+5. **Deploy Your dApp**: Once you've made your changes and tested them locally, you can deploy your dApp to the Celo blockchain[](https://github.com/celo-org/celo-composer "1").
+
+For more detailed instructions, you can refer to the [Celo Documentation](https://docs.celo.org/build) and the [GitHub repository](https://github.com/celo-org/celo-composer).
+
+Does this help you get started with editing your dApp files on Celo?
